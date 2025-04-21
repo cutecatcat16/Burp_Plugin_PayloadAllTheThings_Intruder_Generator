@@ -10,6 +10,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.stream.Collectors;
 
+// Total payload number == 2366 per position.
 public class MyPayloadGenerator implements PayloadGenerator {
 
     private final List<String> payloads;
