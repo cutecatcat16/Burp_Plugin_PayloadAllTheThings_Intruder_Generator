@@ -9,7 +9,7 @@ public class MyPayloadGeneratorProvider implements PayloadGeneratorProvider
     @Override
     public String displayName()
     {
-        return "My custom payloads";
+        return "PayloadAllTheThings";
     }
 
     @Override
