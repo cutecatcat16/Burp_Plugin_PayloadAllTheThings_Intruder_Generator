@@ -9,7 +9,7 @@ import java.util.List;
 public class MyPayloadGenerator implements PayloadGenerator {
 
     private static final List<String> PAYLOADS = List.of(
-            ""
+            "test", "test1"
     ); //Add later
     private int payloadIndex;
 
