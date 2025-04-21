@@ -1,0 +1,17 @@
+payloads/command-execution-unix.txt
+payloads/command_exec.txt
+payloads/BSD-files.txt
+payloads/crlfinjection.txt
+payloads/directory_traversal.txt
+payloads/FUZZDB_MSSQL-WHERE_Time.txt
+payloads/FUZZDB_MySQL-WHERE_Time.txt
+payloads/FUZZDB_Oracle.txt
+payloads/Generic_TimeBased.txt
+payloads/JHADDIX_LFI.txt
+payloads/JHADDIX_XSS.txt
+payloads/LDAP_FUZZ.txt
+payloads/MongoDB.txt
+payloads/NoSQL.txt
+payloads/Open-Redirect-payloads.txt
+payloads/SQLi_Polyglots.txt
+payloads/ssti.fuzz.txt

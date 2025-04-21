@@ -4,6 +4,8 @@ import burp.api.montoya.intruder.AttackConfiguration;
 import burp.api.montoya.intruder.PayloadGenerator;
 import burp.api.montoya.intruder.PayloadGeneratorProvider;
 
+import java.io.IOException;
+
 public class MyPayloadGeneratorProvider implements PayloadGeneratorProvider
 {
     @Override
@@ -15,6 +17,10 @@ public class MyPayloadGeneratorProvider implements PayloadGeneratorProvider
     @Override
     public PayloadGenerator providePayloadGenerator(AttackConfiguration attackConfiguration)
     {
-        return new MyPayloadGenerator();
+        try {
+            return new MyPayloadGenerator();
+        } catch (IOException e) {
+            throw new RuntimeException(e);
+        }
     }
 }
