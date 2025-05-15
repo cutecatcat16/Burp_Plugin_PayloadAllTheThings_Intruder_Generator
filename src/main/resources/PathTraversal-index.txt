@@ -1,0 +1,3 @@
+payloads/BSD-files.txt
+payloads/directory_traversal.txt
+payloads/JHADDIX_LFI.txt

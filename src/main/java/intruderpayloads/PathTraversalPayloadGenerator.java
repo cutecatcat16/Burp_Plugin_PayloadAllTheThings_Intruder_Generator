@@ -11,16 +11,16 @@ import java.util.List;
 import java.util.stream.Collectors;
 
 // Total payload number == 2366 per position.
-public class MyPayloadGenerator implements PayloadGenerator {
+public class PathTraversalPayloadGenerator implements PayloadGenerator {
 
     private final List<String> payloads;
     private int payloadIndex = 0;
 
-    public MyPayloadGenerator() throws IOException {
+    public PathTraversalPayloadGenerator() throws IOException {
         payloads = new ArrayList<>();
 
         // Load the index file that lists all payload files
-        InputStream indexStream = getClass().getClassLoader().getResourceAsStream("payload-index.txt");
+        InputStream indexStream = getClass().getClassLoader().getResourceAsStream("PathTraversal-index.txt");
         if (indexStream == null) {
             throw new FileNotFoundException("payload-index.txt not found in resources.");
         }
