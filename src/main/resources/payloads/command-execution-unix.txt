@@ -81,3 +81,7 @@ a|/usr/bin/id
 %0a id %0a
 `id`
 $;/usr/bin/id
+[$(sleep 5;)];
+[$(sleep 5;)]
+[$(id;)];
+[$(id;)]
